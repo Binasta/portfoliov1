@@ -1,17 +1,20 @@
-site 
-- ADOBE COLORS
-- BEHANCE   
+# Charte Graphique du Portfolio Web
 
+## 1. Palette de Couleurs
 
-1. Palette de couleurs
+| Couleur          | Nom           | Code Hex |
+|----------------|--------------|---------|
+| 🎨 Couleur principale | Rouge vif   | `#E30613` |
+| 🎨 Couleur secondaire | Rouge orangé | `#E6332A` |
+| 🎨 Couleur tertiaire | Orange chaud | `#F39200` |
+| 🎨 Couleur neutre | Blanc        | `#FFFFFF` |
 
-Couleur principale : Rouge vif #E30613
+## 2. Typographie
 
-Couleur secondaire : Rouge orangé #E6332A
+- **Police principale** : [Xanmono](https://www.dafont.com/fr/xanmono.font)
 
-Couleur tertiaire : Orange chaud #F39200
+## 3. Logo
 
-Couleur neutre : Blanc #FFFFFF
+Le logo du portfolio est inclus ci-dessous :
 
-
-font : https://www.dafont.com/fr/xanmono.font
+![Logo](whiteArtboard%201.svg)
