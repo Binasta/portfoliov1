@@ -11,7 +11,7 @@
 
 ## 2. Typographie
 
-- **Police principale** : [Xanmono](https://www.dafont.com/fr/xanmono.font)
+- **Police principale** : [Audiowide](https://fonts.google.com/specimen/Audiowide)
 
 ## 3. Logo
 
