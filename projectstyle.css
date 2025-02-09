@@ -91,19 +91,52 @@ main {
     align-items: center;
     flex-wrap: wrap;
 }
-.text {
+.text1 {
+    padding-top: 2%;
+    padding-left: 8%;
+    margin-left: 8%;
+    margin-bottom: 3%;
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+}
+.text2 {
     padding-top: 0%;
     padding-left: 8%;
     flex: 1;
     font-size: 24px;
     font-weight: bold;
 }
-.stos {
-    width: 35%;
+
+.TD {
+    width: 20%;
+    height: auto;
+    margin: auto;
+    border-radius: 75px;
+    margin-right: 20%;
+    align-items: flex-end;
+    transition: transform 0.1s ease-in-out;
+}
+.TD:hover {
+    transform: scale(1.05);
+}
+.TD:active {
+    transform: scale(0.95);
+}
+.AR {
+    width: 30%;
     height: auto;
     margin-top: 3%;
     border-radius: 75px;
-    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    transition: transform 0.1s ease-in-out;
+}
+.AR:hover {
+    transform: scale(1.05); 
+}
+.AR:active {
+    transform: scale(0.95); 
 }
 .footer {
     background-color: #db6b6b;
