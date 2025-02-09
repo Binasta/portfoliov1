@@ -6,7 +6,7 @@
     <meta name="description" content="site de fission">
     <meta name="keyword" content="fission, fusion, association, photo, kinder pingui, kinder bueno, prix, etudiant, cool, sympathique, photo, video, friandise">
     <title>Fission</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">  
 </head>
@@ -20,20 +20,27 @@
         </nav>
     </header>
     <main>
-        <section class="container">
+        <section class="container">     
             <h1>
-                Accueil
+                Contact
             </h1>
+            <section class="boxbox">
+            <img class="Map" src="map.png">
             <section class="content">
-                <section class="text">
-                    <p>Beaufils Bastian</p>
-                    <p>Étudiant à l'ESIEA</p>
-                    <p>3ème année</p>
-                    <p>Président de RED</p>
-                    <p>Co-président de Fission</p>
-                    
-                </section>
-                <img class="stos" src="stos.png">
+                <form action="mailto:beaufils@et.esiea.fr" method="post" class="contact-form">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Votre email" required>
+            
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+            
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+            <img class="Fission" src="whiteArtboard 1.svg">
             </section>
         </section>
     </main>
