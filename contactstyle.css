@@ -3,6 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
 html, body {
     margin: 0;
     font-family: 'Audiowide', sans-serif;
@@ -51,7 +58,7 @@ main {
     padding: 10px 20px;
     border-radius: 15px;
     font-weight: bold;
-    display: inline-block; /* Assure une bonne taille */
+    display: inline-block;
     overflow: hidden;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -60,7 +67,7 @@ main {
     content: "";
     position: absolute;
     left: 50%;
-    bottom: 5px; /* Ajuste l'espace sous le bouton */
+    bottom: 5px; 
     width: 0;
     height: 2px;
     background-color: black;
@@ -69,12 +76,12 @@ main {
 }
 
 .nav a:hover {
-    background-color: #c55b5b; /* Couleur au survol */
+    background-color: #c55b5b; 
     color: white;
 }
 
 .nav a:hover::after {
-    width: 80%; /* Laisse un peu de marge sur les côtés */
+    width: 80%; 
 }
 .container {
     background-color: #f4a4a4;
@@ -190,3 +197,19 @@ main {
     margin-top: auto;
 }
 
+.social a{
+    display: inline-block;
+    color: #db6b6b;
+    font-size: 30px;
+    margin-left: 20px;
+    transition: transform 0.1s ease-in-out;
+
+}
+.social a:hover{
+    color: #a84d4d;
+    transform: scale(1.5); 
+    animation: shake 0.3s ease-in-out; /* Durée et fluidité */
+}
+.social a:active {
+    transform: scale(0.95); 
+}  
